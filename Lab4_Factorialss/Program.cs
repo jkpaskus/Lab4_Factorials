@@ -25,17 +25,21 @@ namespace Lab4_Factorialss
 
         public static double Factorial(int number)
         {
+            //Set factorial to 1 because this is 0 factorial.
             if (number == 0)
                 return 1;
 
-            double factorial = 1;
+            ////Declare and initialize variable to store the factorial.
+            //double factorial = 1;
 
-            for (int i = number; i >=1; i--)
-            {
-                factorial = factorial * i;
-            }
+            ////For loop to iterate appropriately through all numbers smaller than input
+            //for (int i = number; i >= 1; i--)
+            //{
+            //    factorial = factorial * i;
+            //}
 
-            return factorial;
+            //Method becomes recursive.
+            return number * Factorial(number - 1);
         }
     }
 }
