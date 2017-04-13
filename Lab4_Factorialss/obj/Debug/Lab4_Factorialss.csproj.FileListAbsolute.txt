@@ -1,0 +1,6 @@
+c:\users\hp\documents\visual studio 2015\Projects\Lab4_Factorialss\Lab4_Factorialss\bin\Debug\Lab4_Factorialss.exe.config
+c:\users\hp\documents\visual studio 2015\Projects\Lab4_Factorialss\Lab4_Factorialss\bin\Debug\Lab4_Factorialss.exe
+c:\users\hp\documents\visual studio 2015\Projects\Lab4_Factorialss\Lab4_Factorialss\bin\Debug\Lab4_Factorialss.pdb
+c:\users\hp\documents\visual studio 2015\Projects\Lab4_Factorialss\Lab4_Factorialss\obj\Debug\Lab4_Factorialss.csprojResolveAssemblyReference.cache
+c:\users\hp\documents\visual studio 2015\Projects\Lab4_Factorialss\Lab4_Factorialss\obj\Debug\Lab4_Factorialss.exe
+c:\users\hp\documents\visual studio 2015\Projects\Lab4_Factorialss\Lab4_Factorialss\obj\Debug\Lab4_Factorialss.pdb
