@@ -14,13 +14,26 @@ namespace Lab4_Factorialss
             int min = 0;
             int max = 10;
 
-            Console.WriteLine("Welcome to the Factorial Calculator!\n\n");
-            Console.Write("Enter an integer that's greater than {0} but less than {1}: ", min, max);
+            bool run = true;
+            do
+            {
+                Console.WriteLine("Welcome to the Factorial Calculator!\n\n");
+                Console.Write("Enter an integer that's greater than {0} but less than {1}: ", min, max);
 
-            //Collect number that the user input.
-            int number = Convert.ToInt32(Console.ReadLine());
-            double factorial = Factorial(number);
-            Console.WriteLine("The factorial of {0} is {1}", number, factorial);
+                //Collect number that the user input.
+                int number = Convert.ToInt32(Console.ReadLine());
+                long factorial = (long)Factorial(number);
+                Console.WriteLine("The factorial of {0} is {1}", number, factorial);
+
+
+                //Ask users if they want to continue.
+                Console.WriteLine("Do you want to continue?");
+
+                string input = Console.ReadLine();
+                if (input.ToLower() == "no")
+                    run = false;
+
+            } while (run);
         }
 
         public static double Factorial(int number)
